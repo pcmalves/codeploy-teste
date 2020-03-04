@@ -1,3 +1,4 @@
 #!/bin/bash
+rm -rf /var/www/html/index.html
 yum update -y
 yum install httpd -y
