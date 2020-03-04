@@ -1,3 +1,8 @@
 #!/bin/bash
 docker rm -f $(docker ps -aq) || true
 rm -rf /home/ubuntu/docker-compose.yml
+
+
+
+
+arn:aws:s3:::quinstreet-temp/*
