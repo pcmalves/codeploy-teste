@@ -1,3 +1,2 @@
 #!/bin/bash
-docker rm -f $(docker ps -aq) || true
-rm -rf /home/ubuntu/docker-compose.yml
+docker rm -f $(docker ps -aq)
